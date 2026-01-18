@@ -1,0 +1,32 @@
+{
+  "name": "@veronica/ascii-art-toolkit",
+  "version": "0.1.0",
+  "description": "A curated library for organizing and accessing high-quality ASCII art across projects",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "validate": "node dist/index.js"
+  },
+  "keywords": [
+    "ascii",
+    "art",
+    "library",
+    "creative-coding",
+    "typography",
+    "visual"
+  ],
+  "author": "Veronica Ray",
+  "license": "MIT"
+}
