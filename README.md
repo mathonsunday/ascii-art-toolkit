@@ -6,7 +6,7 @@ A curated library for organizing and accessing high-quality ASCII art across pro
 
 ASCII art is fundamentally **copy-pastable content**. This library's job is organization, not generation.
 
-- Commission art from v0 or other design tools
+- Generate high quality ASCII art using v0 or other design tools
 - Add it to the library with clean TypeScript exports
 - Apps query the library by theme, category, or random selection
 - Over time, the library grows organically as you work on projects
@@ -202,7 +202,7 @@ interface AsciiArt {
 
 ## Workflow for Adding Pieces
 
-1. Commission ASCII art from v0
+1. Generate high quality ASCII art using v0 or other design tools
 2. Export as clean TypeScript (like `deep-sea-ascii-library.ts`)
 3. Copy into appropriate theme file (creatures/structures/environment)
 4. Add additional tags based on aesthetic judgment
@@ -265,7 +265,7 @@ Trying to algorithmically generate good ASCII art fails because:
 3. **Composition is crucial** - How elements are arranged and spaced determines impact
 
 Instead, we:
-1. Commission beautiful art from skilled designers (v0, Vizio, etc.)
+1. Generate high quality ASCII art using v0 or other design tools
 2. Curate and organize pieces in themes
 3. Let code handle organization, querying, and composition
 4. Let humans handle aesthetic judgment
