@@ -19,11 +19,11 @@
  */
 
 // Core
-export { AsciiArt, Theme, QueryOptions, ValidationResult, TagMetadata } from './core/types';
-export { AsciiLibrary, library } from './core/library';
+export { AsciiArt, Theme, QueryOptions, ValidationResult, TagMetadata } from './core/types.js';
+export { AsciiLibrary, library } from './core/library.js';
 
 // Themes
-export { deepSeaTheme } from './themes/deep-sea/index';
+export { deepSeaTheme } from './themes/deep-sea/index.js';
 
 // Utilities
 export {
@@ -32,10 +32,10 @@ export {
   validateLibrary,
   validateThemePieces,
   validateZoomVariants,
-} from './utils/validate';
+} from './utils/validate.js';
 
 // Register default theme
-import { library } from './core/library';
-import { deepSeaTheme } from './themes/deep-sea/index';
+import { library } from './core/library.js';
+import { deepSeaTheme } from './themes/deep-sea/index.js';
 
 library.registerTheme(deepSeaTheme);

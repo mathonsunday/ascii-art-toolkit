@@ -17,13 +17,13 @@
  *     tags: { bioluminescence: true },
  *   });
  */
-export { AsciiLibrary, library } from './core/library';
+export { AsciiLibrary, library } from './core/library.js';
 // Themes
-export { deepSeaTheme } from './themes/deep-sea/index';
+export { deepSeaTheme } from './themes/deep-sea/index.js';
 // Utilities
-export { validatePiece, validateRendering, validateLibrary, validateThemePieces, validateZoomVariants, } from './utils/validate';
+export { validatePiece, validateRendering, validateLibrary, validateThemePieces, validateZoomVariants, } from './utils/validate.js';
 // Register default theme
-import { library } from './core/library';
-import { deepSeaTheme } from './themes/deep-sea/index';
+import { library } from './core/library.js';
+import { deepSeaTheme } from './themes/deep-sea/index.js';
 library.registerTheme(deepSeaTheme);
 //# sourceMappingURL=index.js.map

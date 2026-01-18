@@ -5,7 +5,7 @@
  * The library maintains a collection of themes, each containing curated pieces.
  */
 
-import { AsciiArt, Theme, QueryOptions, ValidationResult, TagMetadata } from './types';
+import { AsciiArt, Theme, QueryOptions, ValidationResult, TagMetadata } from './types.js';
 
 export class AsciiLibrary {
   private themes: Map<string, Theme> = new Map();

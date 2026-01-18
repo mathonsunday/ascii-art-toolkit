@@ -17,8 +17,8 @@
  *     tags: { bioluminescence: true },
  *   });
  */
-export { AsciiArt, Theme, QueryOptions, ValidationResult, TagMetadata } from './core/types';
-export { AsciiLibrary, library } from './core/library';
-export { deepSeaTheme } from './themes/deep-sea/index';
-export { validatePiece, validateRendering, validateLibrary, validateThemePieces, validateZoomVariants, } from './utils/validate';
+export { AsciiArt, Theme, QueryOptions, ValidationResult, TagMetadata } from './core/types.js';
+export { AsciiLibrary, library } from './core/library.js';
+export { deepSeaTheme } from './themes/deep-sea/index.js';
+export { validatePiece, validateRendering, validateLibrary, validateThemePieces, validateZoomVariants, } from './utils/validate.js';
 //# sourceMappingURL=index.d.ts.map

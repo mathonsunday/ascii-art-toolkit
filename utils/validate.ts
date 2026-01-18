@@ -5,7 +5,7 @@
  */
 
 import { AsciiArt, ValidationResult } from '../core/types';
-import { library } from '../core/library';
+import { library } from '../core/library.js';
 
 /**
  * Validate an individual piece for required fields and structure.

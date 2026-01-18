@@ -3,7 +3,7 @@
  *
  * Functions for validating library integrity and piece quality.
  */
-import { library } from '../core/library';
+import { library } from '../core/library.js';
 /**
  * Validate an individual piece for required fields and structure.
  */

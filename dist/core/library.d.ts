@@ -4,7 +4,7 @@
  * Main library class for organizing, querying, and accessing ASCII art.
  * The library maintains a collection of themes, each containing curated pieces.
  */
-import { AsciiArt, Theme, QueryOptions, ValidationResult, TagMetadata } from './types';
+import { AsciiArt, Theme, QueryOptions, ValidationResult, TagMetadata } from './types.js';
 export declare class AsciiLibrary {
     private themes;
     private allPiecesById;
