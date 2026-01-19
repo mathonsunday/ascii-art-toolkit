@@ -1,6 +1,6 @@
 {
   "name": "@mathonsunday/ascii-art-toolkit",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A curated library for organizing and accessing high-quality ASCII art across projects",
   "type": "module",
   "main": "dist/index.js",
