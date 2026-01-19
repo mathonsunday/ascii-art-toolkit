@@ -29,6 +29,24 @@ export const structures: AsciiArt[] = [
       size: 'small',
       bioluminescence: false,
     },
+    zoom: {
+      far: `
+   [$$]
+   ~~~~
+`,
+      medium: `    .=======.
+   [| $ $ $ |]
+   [|_coins_|]
+   ~~~~~~~~~~`,
+      close: `      .===================.
+     /| $ $ $ $ $ $ $ $ $ |\\
+    / |  o o o o o o o o  | \\
+   [  |===================|  ]
+   [  | $$$ GOLD $$$ GOLD |  ]
+   [  | coins gems coins  |  ]
+   [__|_________jewels____|__]
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~`,
+    },
   },
   {
     id: 'deep-sea:diver',
@@ -53,6 +71,29 @@ export const structures: AsciiArt[] = [
       size: 'medium',
       bioluminescence: false,
     },
+    zoom: {
+      far: `   [¤]
+  {o o}
+   |=|`,
+      medium: `    [¤¤¤]
+   /{o o}\\
+  |=|===|=|
+   \\|_|_|/
+    O   O`,
+      close: `       [¤¤¤¤¤¤¤]
+      /  ¤¤¤¤¤  \\
+     /  /-----\\  \\
+    |  | o   o |  |
+    |  |   ~   |  |
+    |  |  ===  |  |
+    |  \\-------/  |
+   [|=|=========|=|]
+    |  |   |   |  |
+    |  |   |   |  |
+     \\ |___|___| /
+      \\|       |/
+       O       O`,
+    },
   },
   {
     id: 'deep-sea:submarine',
@@ -75,6 +116,24 @@ export const structures: AsciiArt[] = [
       density: 'medium',
       size: 'large',
       bioluminescence: false,
+    },
+    zoom: {
+      far: `
+   =[ooo]==>
+`,
+      medium: `      _______________
+    =/  [°] [°] [°]  \\
+   |---=============---|>
+    \\______@@@______/`,
+      close: `          _________________________
+        /                           \\
+      =/    [°]    [°]    [°]    [°]  \\
+     |    ________________________    |
+     |---|  DEPTH: 3000m  PRESS: OK |---|====>
+     |   |__________________________|   |
+      \\__________@@@@@@@@__________/
+         \\________|    |________/
+            (  )  (    )  (  )`,
     },
   },
 ];
