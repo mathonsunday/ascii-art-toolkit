@@ -15,6 +15,7 @@
 export interface AsciiArt {
   id: string;
   name: string;
+  displayName?: string;  // Natural language display name (e.g., "school of fish" for schoolOfFish)
   category: 'creature' | 'structure' | 'environment' | 'scene';
   theme: string;
   art: string;
