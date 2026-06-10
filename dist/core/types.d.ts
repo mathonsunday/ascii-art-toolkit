@@ -14,6 +14,7 @@
 export interface AsciiArt {
     id: string;
     name: string;
+    displayName?: string;
     category: 'creature' | 'structure' | 'environment' | 'scene';
     theme: string;
     art: string;

@@ -8,6 +8,7 @@ export const creatures = [
     {
         id: 'deep-sea:anglerfish',
         name: 'Anglerfish',
+        displayName: 'anglerfish',
         category: 'creature',
         theme: 'deep-sea',
         art: `        *
@@ -51,6 +52,7 @@ export const creatures = [
     {
         id: 'deep-sea:giant-squid',
         name: 'Giant Squid',
+        displayName: 'giant squid',
         category: 'creature',
         theme: 'deep-sea',
         art: `      .===.  _____  .===.
@@ -92,6 +94,7 @@ export const creatures = [
     {
         id: 'deep-sea:jellyfish',
         name: 'Jellyfish',
+        displayName: 'jellyfish',
         category: 'creature',
         theme: 'deep-sea',
         art: `     ,--~~~--,
@@ -133,6 +136,7 @@ export const creatures = [
     {
         id: 'deep-sea:octopus',
         name: 'Octopus',
+        displayName: 'octopus',
         category: 'creature',
         theme: 'deep-sea',
         art: `     ,--{@ @}--,
@@ -172,6 +176,7 @@ export const creatures = [
     {
         id: 'deep-sea:sea-turtle',
         name: 'Sea Turtle',
+        displayName: 'sea turtle',
         category: 'creature',
         theme: 'deep-sea',
         art: `       _____
@@ -216,6 +221,7 @@ export const creatures = [
     {
         id: 'deep-sea:shark',
         name: 'Shark',
+        displayName: 'shark',
         category: 'creature',
         theme: 'deep-sea',
         art: `       |\\
@@ -256,6 +262,7 @@ export const creatures = [
     {
         id: 'deep-sea:hermit-crab',
         name: 'Hermit Crab',
+        displayName: 'hermit crab',
         category: 'creature',
         theme: 'deep-sea',
         art: `    .oO
@@ -299,6 +306,7 @@ export const creatures = [
     {
         id: 'deep-sea:bioluminescent-fish',
         name: 'Bioluminescent Fish',
+        displayName: 'school of fish',
         category: 'creature',
         theme: 'deep-sea',
         art: `   *  .  *  .  *
@@ -334,6 +342,7 @@ export const creatures = [
     {
         id: 'deep-sea:viperfish',
         name: 'Viperfish',
+        displayName: 'viperfish',
         category: 'creature',
         theme: 'deep-sea',
         art: `         *
